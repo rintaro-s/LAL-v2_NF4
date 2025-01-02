@@ -38,7 +38,8 @@ Trained on a dataset of sisterly-toned text using a standard language modeling o
 ## Bias and Limitations
 
 ### Bias
-The model may exhibit biases present in the training data, such as a tendency towards generating text that is overly polite or submissive.
+The training data contains many novel-like sentences, including onomatopoeia.
+
 
 ### Limitations
 The model is still under development and may produce incorrect or nonsensical outputs.
