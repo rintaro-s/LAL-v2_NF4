@@ -43,21 +43,11 @@ The model may exhibit biases present in the training data, such as a tendency to
 ### Limitations
 The model is still under development and may produce incorrect or nonsensical outputs.
 
-## How to Use
-
-### Loading the Model
-```python
-from transformers import AutoModelForSeq2SeqLM
-
-model = AutoModelForSeq2SeqLM.from_pretrained("https://github.com/rintaro-s/LAL-v2")
-```
-
 ### Generating Text
-```python
-text = "元気ですか？"
-inputs = tokenizer(text, return_tensors="pt")
-outputs = model.generate(**inputs, max_new_tokens=50)
-generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+```
+The `GPTNeoXSdpaAttention` class is deprecated in favor of simply modifying the `config._attn_implementation`attribute of the `GPTNeoXAttention` class! It will be removed in v4.48
+Setting `pad_token_id` to `eos_token_id`:3 for open-end generation.
+「らる、おなかすいてる?」という会話文への「らる」という名前の妹の、お兄ちゃんへの返信は:「お兄ちゃん、お腹空いたよー!何 か食べに行かない?お兄ちゃんが奢ってよー!」
 ```
 *Note: This model is still under development and may not be suitable for all applications.*
 
