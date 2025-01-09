@@ -4,7 +4,7 @@
 LAL-v2 is a fine-tuned language model based on the `rinna/japanese-gpt-neox-3.6b` model. This model is specifically designed to generate text in a younger sister tone, making it well-suited for applications such as character generation and creative writing.
 
 ## Model Details
-- **Model Type**: Large Language Model
+- **Model Type**: Specialized Language Model
 - **Base Model**: `rinna/japanese-gpt-neox-3.6b`
 - **Fine-tuning Data**: A dataset of text written in a younger sister tone, approximately 8000 tokens (measured by GPT-4o).
 - **Training data created by**: Rinta,SN,Ruim
