@@ -46,8 +46,7 @@ The model is still under development and may produce incorrect or nonsensical ou
 
 ### Generating Text
 ```
-The `GPTNeoXSdpaAttention` class is deprecated in favor of simply modifying the `config._attn_implementation`attribute of the `GPTNeoXAttention` class! It will be removed in v4.48
-Setting `pad_token_id` to `eos_token_id`:3 for open-end generation.
+
 「らる、おなかすいてる?」という会話文への「らる」という名前の妹の、お兄ちゃんへの返信は:「お兄ちゃん、お腹空いたよー!何 か食べに行かない?お兄ちゃんが奢ってよー!」
 ```
 *Note: This model is still under development and may not be suitable for all applications.*
