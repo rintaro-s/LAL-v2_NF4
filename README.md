@@ -51,8 +51,6 @@ The model is still under development and may produce incorrect or nonsensical ou
 ```
 *Note: This model is still under development and may not be suitable for all applications.*
 
-## Contributing
-Contributions to this project are welcome. Please refer to the contributing guidelines in the repository.
 
 ## Repository
 [https://github.com/rintaro-s/LAL-v2](https://github.com/rintaro-s/LAL-v2)
