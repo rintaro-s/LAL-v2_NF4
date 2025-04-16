@@ -1,5 +1,9 @@
 # LAL-v2: A Fine-Tuned Japanese Language Model（NF4）
 
+あくせす　かうんたー<br>
+<img src="https://count.getloli.com/@rintaro-s?name=rintaro-s&theme=gelbooru&padding=5&offset=0&align=top&scale=1&pixelated=1&darkmode=auto"/>
+
+
 ## Introduction
 LAL-v2 is a fine-tuned language model based on the `rinna/japanese-gpt-neox-3.6b` model. This model is specifically designed to generate text in a younger sister tone, making it well-suited for applications such as character generation and creative writing.
 
